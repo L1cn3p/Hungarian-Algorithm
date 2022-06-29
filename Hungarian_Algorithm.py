@@ -58,7 +58,7 @@ def mark_matrix(mat):
     # 4、Compare the column indexes stored in marked_zero and marked_cols
     # 5、If a matching column index exists, the corresponding row_index is saved to non_marked_rows
     # 6、Next, the row indexes that are not in non_marked_row are stored in marked_rows
-    return (marked_zero, marked_rows, marked_cols)
+    return (marked_zero,[], [])
 
 
 def adjust_matrix(mat, cover_rows, cover_cols):
